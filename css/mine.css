@@ -1,0 +1,280 @@
+/*
+* @Author: ASUS
+* @Date:   2018-01-05 22:35:32
+* @Last Modified by:   ASUS
+* @Last Modified time: 2018-01-07 11:32:31
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 531130 */
+  src: url('http://at.alicdn.com/t/font_531130_irjf6b0tquohto6r.eot');
+  src: url('http://at.alicdn.com/t/font_531130_irjf6b0tquohto6r.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_531130_irjf6b0tquohto6r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_531130_irjf6b0tquohto6r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_531130_irjf6b0tquohto6r.svg#iconfont') format('svg');
+}
+body{
+	background:#f2f2f2;
+}
+i{
+	font-style: normal;
+}
+.iconfont{
+	font-family: iconfont;
+}
+header{
+	width: 100%;
+	height: 1.5rem;
+	/* background: red; */
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	
+	
+}
+header .left{
+	display: block;
+	width: 0.55rem;
+	height: 0.55rem;
+	/* background: yellow; */
+	margin-left: 0.44rem;
+	margin-top: 0.47rem;
+}
+header .left .iconfont{
+	font-size: 0.55rem;
+	line-height: 0.27rem;
+	color: #333;
+	text-align: center;
+}
+header .title{
+	width: 1.72rem;
+	height: 1.5rem;
+	/* background: blue; */
+	margin-left: 3.56rem;
+	font-size: 0.4rem;
+	line-height: 1.8rem;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+
+}
+header .car{
+	width: 0.8rem;
+	height: 0.7rem;
+	/* background: black; */
+	margin-left: 1.88rem;
+	margin-top: 0.4rem;
+}
+header .car a{
+	display: block;
+	font-size: 0.62rem;
+	color: #333;
+	text-align: center;
+	line-height: 0.7rem;
+	width: 100%;
+	height: 100%;
+}
+header .list{
+	width: 0.46rem;
+	height: 0.27rem;
+	/* background: pink; */
+	margin-top: 0.6rem;
+	margin-left: 0.87rem;
+}
+header .list a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	
+	color: #333;
+}
+header .list a .iconfont{
+	
+	float: left;
+	text-align: center;
+}
+.banner{
+	width: 100%;
+	height: 5.8rem;
+	margin-top: 1.5rem;
+}
+.banner a, img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.denglu{
+	width: 100%;
+	height: 1.26rem;
+	background: #fff;
+	display: flex;
+	
+}
+.denglu .no1{
+	width: 50%;
+	height: 100%;
+	border-bottom: 0.04rem solid #e8343b;
+	box-sizing: border-box;
+	position: relative;
+
+
+}
+.denglu .no1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.denglu .no1 .name{
+	font-size: 0.36rem;
+	text-align: center;
+	line-height: 1.26rem;
+	color: #ea4a50;
+}
+.denglu .no2{
+	width: 50%;
+	height: 100%;
+	border-bottom:0.03rem solid #e1e1e1; 
+	box-sizing: border-box;
+}
+.denglu .no2 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.denglu .no2 .src{
+	font-size: 0.36rem;
+	text-align: center;
+	line-height: 1.26rem;
+	color:#222;
+}
+.denglu .no3{
+	width: 0.03rem;
+	height: 0.42rem;
+	background: #e1e1e1;
+	position: absolute;
+	top: 0.42rem;
+	right: 0;
+}
+.jiange{
+	width: 100%;
+	height: 0.24rem;
+	background: #f2f2f2;
+	border-bottom: 0.03rem solid #e1e1e1;
+}
+.shuru{
+	width: 100%;
+	height: 3.69rem;
+}
+.shuru .list{
+	width: 100%;
+	height: 1.23rem;
+	padding-left: 0.66rem;
+	box-sizing: border-box;
+	border-bottom: 0.03rem solid #e1e1e1;
+	font-size: 0.54rem;
+	color: #444;
+	line-height: 1.23rem;
+	position: relative;
+	background: #fff;
+
+
+}
+.shuru .list i{
+	margin-left: 0.1rem;
+	line-height: 1.23rem;
+}
+.shuru .list:nth-child(2){
+	position: relative;
+}
+.shuru .list:last-child{
+	position: relative;
+}
+.shuru .list .img{
+	width: 3.42rem;
+	height: 1.2rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.shuru .list .duanxin{
+	width: 3.42rem;
+	height: 1.2rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #e8343b;
+}
+.shuru .list .duanxin a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #fff;
+	line-height: 1.2rem;
+	text-align: center;
+}
+.shuru .list .img a,img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shuru .list .tel{
+	width: 9.34rem;
+	height: 1.1rem;
+	border: 0;
+	padding: 0;
+	background: #fff;
+	font-size: 0.36rem;
+	color: #222;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+footer{
+	width: 100%;
+	height: 1.5rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 88;
+	display: flex;
+}
+footer .left a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #333;
+	font-size: 0.4rem;
+	font-weight: bold;
+	line-height: 1.5rem;
+	
+	text-align: center;
+}
+footer .right a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #C5E6FF;
+	font-size: 0.4rem;
+	font-weight: bold;
+	line-height: 1.5rem;
+	
+	text-align: center;
+}
+footer .left{
+	width: 50%;
+	height: 1.5rem;
+	background: #fff;
+	
+	
+	
+}
+footer .right{
+	width: 50%;
+	height: 1.5rem;
+	background: #ccc;
+	
+}
